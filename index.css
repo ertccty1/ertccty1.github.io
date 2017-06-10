@@ -1,3 +1,16 @@
+.body {
+	font-family: Raleway, sans-serif;
+}
+
+.heading {
+	text-align: center;
+}
+
 .products {
 	display: inline-block;
+}
+
+.products a img {
+	width: 115px;
+	height: 101px;
 }
