@@ -10,6 +10,10 @@ body {
 	display: inline-block;
 }
 
+.products a {
+	text-decoration: none;
+}
+
 .products a img {
 	width: 115px;
 	height: 101px;
