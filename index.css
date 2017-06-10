@@ -11,6 +11,8 @@ body {
 }
 
 .products a {
+	color: #000;
+	text-align: center;
 	text-decoration: none;
 }
 
