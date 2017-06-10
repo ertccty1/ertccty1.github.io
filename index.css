@@ -1,5 +1,10 @@
 body {
 	font-family: Raleway, sans-serif;
+	background: #EFEFEF;
+}
+
+h2 {
+	margin-bottom: 0.3em;
 }
 
 .heading {
@@ -7,16 +12,97 @@ body {
 }
 
 .products {
-	display: inline-block;
-}
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+=}
 
 .products a {
-	color: #000;
+	flex: 1 1 115px;
+	vertical-align: top;
 	text-align: center;
-	text-decoration: none;
+	-moz-text-align-last: center;
+		 text-align-last: center;
 }
 
 .products a img {
 	width: 115px;
 	height: 101px;
+}
+
+.products a p {
+	width: 115px;
+	margin: 5px 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ba2121;
+	transition: color 0.2s;
+}
+
+a:hover {
+	color: #f04242;
+}
+
+.buttons {
+	vertical-align: top;
+	text-align: center;
+}
+
+.email {
+	display: inline-block;
+	text-align: center;
+	background: #ba2121;
+	padding: 5px 10px;
+	border-radius: 3px;
+	margin: 5px;
+	width: 316px;
+	height: 68px;
+}
+
+.email:hover {
+	background: #f04242;
+	transition: color 0.2s;
+}
+
+.email-link {
+	width: 100%;
+	height: 100%;
+}
+
+a.email {
+	color: #fff;
+	margin: 0 0 5px 0;
+}
+
+.paypal {
+	display: inline-block;
+	text-align: center;
+	background: #ba2121;
+	padding: 5px 10px;
+	border-radius: 3px;
+	margin: 5px;
+	width: 316px;
+	height: 68px;
+}
+
+.paypal:hover {
+	background: #f04242;
+	transition: color 0.2s;
+}
+
+a.paypal {
+	color: #fff;
+	margin: 0 0 5px 0;
+}
+
+.paypal img {
+	margin-top: -0.8em;
+	display: block;
 }
